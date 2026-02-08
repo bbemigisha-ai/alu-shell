@@ -1,0 +1,10 @@
+#!/bin/bash
+# This script lists files without the numeric prefix
+
+for file in *
+do 
+if [[ "$file" == *_* ]]
+then
+echo "${file#*-}"
+fi
+done
