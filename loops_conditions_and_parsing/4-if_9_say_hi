@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script prints Best school 10 times and Hi on the 9th iteration
 
 i=1

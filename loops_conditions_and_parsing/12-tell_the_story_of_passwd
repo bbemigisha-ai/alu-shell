@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #This script tells a story based on /etc/passwd
 
 while IFS=: read -r username password uid gid comment home shell

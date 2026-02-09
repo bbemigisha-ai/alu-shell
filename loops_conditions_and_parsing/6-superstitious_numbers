@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script displays numbers and superstition messages
 
 i=1

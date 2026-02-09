@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script prints messages based on loop iteration
 
 i=1
