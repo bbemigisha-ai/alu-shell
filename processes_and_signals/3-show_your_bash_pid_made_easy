@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+for pid in /proc/[0-9]*; do
+if [ -f "$pid/comm" ] && grep -q bash "$pid/comm"; then
+echo "$(basename "$pid") bash"
+fi
+done
