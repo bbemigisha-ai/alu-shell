@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Creates a PID file, prints a message indefinetly, and handles signals
 
 PIDFILE="/tmp/myscript.pid"
 echo $$ > "$PIDFILE"

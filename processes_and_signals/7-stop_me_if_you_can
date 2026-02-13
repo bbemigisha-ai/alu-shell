@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Forcefully terminates the 7-highlander process
 
 pid=$(pgrep -f 7-highlander)
 kill -SIGSTOP "$pid"

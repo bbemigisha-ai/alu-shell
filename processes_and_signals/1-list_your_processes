@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
+#Displays all running processes for all users in  heirarchical format
+
 ps -auxf
